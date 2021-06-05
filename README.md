@@ -1,0 +1,1 @@
+# detailed-cmake-training
