@@ -1,0 +1,124 @@
+Language: Cpp
+Standard: c++17
+
+IndentWidth: 4
+ColumnLimit: 100
+TabWidth: 1
+UseTab: Never
+
+AccessModifierOffset: -4
+AlwaysBreakBeforeMultilineStrings: true
+AlignConsecutiveAssignments: false
+AllowAllParametersOfDeclarationOnNextLine: true
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortLambdasOnASingleLine: Empty
+AlignConsecutiveMacros: true
+AllowAllArgumentsOnNextLine: false
+AlignAfterOpenBracket: Align
+AlignConsecutiveDeclarations: false
+AlignEscapedNewlines: Left
+#AlignOperands: AlignAfterOperator # not supported in default CLion clang format
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: 'Empty'
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Custom
+BraceWrapping:
+  #  BeforeLambdaBody: false # not supported in default CLion clang format
+  AfterFunction: true
+  AfterNamespace: true
+  #  AfterCaseLabel: false # not supported in default CLion clang format
+  AfterExternBlock: true
+  AfterClass: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterEnum: true
+  AfterControlStatement: false
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeComma
+BreakStringLiterals: false
+CompactNamespaces: false
+ConstructorInitializerAllOnOneLineOrOnePerLine: false
+Cpp11BracedListStyle: true
+DerivePointerAlignment: false
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+IndentCaseLabels: true
+IndentPPDirectives: BeforeHash
+IndentWrappedFunctionNames: true
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: None
+SortIncludes: true
+SortUsingDeclarations: true
+SpaceAfterCStyleCast: false
+SpaceAfterTemplateKeyword: false
+SpaceBeforeAssignmentOperators: true
+SpaceInEmptyParentheses: false
+SpacesInAngles: false
+SpacesInCStyleCastParentheses: false
+SpacesInContainerLiterals: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+SpaceBeforeParens: ControlStatements
+SpacesBeforeTrailingComments: 1
+PenaltyBreakAssignment: 70
+PenaltyBreakBeforeFirstCallParameter: 90
+PenaltyBreakComment: 80
+PenaltyReturnTypeOnItsOwnLine: 70
+PenaltyExcessCharacter: 80
+PointerAlignment: Left
+ConstructorInitializerIndentWidth: 8
+ContinuationIndentWidth: 4
+
+AllowAllConstructorInitializersOnNextLine: false
+SpaceBeforeCtorInitializerColon: false
+
+KeepEmptyLinesAtTheStartOfBlocks: true
+ReflowComments: true
+SpaceAfterLogicalNot: false
+SpaceBeforeCpp11BracedList: false
+SpaceBeforeInheritanceColon: true
+SpaceBeforeRangeBasedForLoopColon: true
+SpaceInEmptyBlock: false
+
+IncludeCategories:
+  # External libraries
+  -   Regex:           '<(boost|glm|tinyxml2|GLFW|opencv|spdlog|glog|gst|nlohmann|opencv2|opencv4)/.*>'
+      Priority:        3
+  # Test Frameworks headers
+  -   Regex:           '<(gtest|gmock|catch2)\/.*>'
+      Priority:        8
+  # Test headers
+  -   Regex:           '<test\/.*>'
+      Priority:        9
+  # Experimental STL headers
+  -   Regex:           '<experimental\/.*>'
+      Priority:        4
+  # Headers in "" with extension. In our project headers from this project's library
+  -   Regex:           '"[A-Za-z0-9_]+\.(h|hpp)"'
+      Priority:        7
+  # Headers in <> with extension. In our project headers from other project's library
+  -   Regex:           '<[A-Za-z0-9/_]+\.(h|hpp)>'
+      Priority:        6
+  # Qt headers
+  -   Regex:           '<Q[A-Za-z0-9]+>'
+      Priority:        5
+  # STL headers
+  -   Regex:           '<.*>'
+      Priority:        2
+  # Damn windows headers
+  -   Regex:           '<windows.h>'
+      Priority:        1
