@@ -1,0 +1,2 @@
+1. Create custom target that will run all test registered at CTest
+2. Find the way how to exclude external library tests
