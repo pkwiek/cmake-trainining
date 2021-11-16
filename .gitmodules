@@ -1,0 +1,9 @@
+[submodule "lecures-support/05-project-structure/external/json"]
+	path = lecures-support/05-project-structure/external/json
+	url = https://github.com/nlohmann/json.git
+[submodule "lecures-support/07-definitions/external/json"]
+	path = lecures-support/07-definitions/external/json
+	url = https://github.com/nlohmann/json.git
+[submodule "tasks/05-project-structure/external/json"]
+	path = tasks/05-project-structure/external/json
+	url = https://github.com/nlohmann/json.git
