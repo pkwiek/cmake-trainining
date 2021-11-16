@@ -1,0 +1,5 @@
+Use result of tasks/07-definitions (still in tasks/05-project-structure)
+
+Add two flags that will be responsible for:
+* enabling/disabling configuring tests
+* picking between shared/static library for our shared library

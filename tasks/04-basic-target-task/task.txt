@@ -1,0 +1,1 @@
+Add CMakeLists.txt that will use C++ files in directory and creates executable
