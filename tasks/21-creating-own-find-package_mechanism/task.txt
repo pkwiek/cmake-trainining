@@ -1,0 +1,15 @@
+1. Copy project tasks/05-project-structure here.
+2. Remove code of subproject that you implemented installing in previous task
+3. Implement own Find<package> mechanism in copied project
+4. Find library that you implemented installing by using implemented find package mechanism.
+Remember about providing CMAKE_PREFIX_PATH flag to proper directory.
+
+You can use
+* CMAKE_PREFIX_PATH - path where CMake looks for libraries, headers, configs
+* CMAKE_MODULE_PATH - path where CMake looks for module files, find package files etc.
+* IMPORTED_LOCATION - property for location of library
+* INTERFACE_INCLUDE_DIRECTORIES - property for include directories
+
+Reference:
+https://cmake.org/cmake/help/v3.20/variable/CMAKE_PREFIX_PATH.html
+https://cmake.org/cmake/help/v3.20/command/find_package.html
