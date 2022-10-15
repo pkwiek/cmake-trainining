@@ -1,11 +1,11 @@
 find_package(Git REQUIRED)
 
 add_custom_target(PrintCurrentGitBranch
-        COMMAND git branch --show-current
+        COMMAND "${GIT_EXECUTABLE}" branch --show-current
         WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}")
 
 add_custom_target(PrintCurrentRevision
-        COMMAND git branch --show-current
+        COMMAND "${GIT_EXECUTABLE}" rev-parse HEAD
         WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}")
 
 # to fail compilation attach this target

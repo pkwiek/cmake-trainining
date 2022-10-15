@@ -1,8 +1,7 @@
 #pragma once
 
+#include <memory>
 #include <string>
-
-#include <SharedPtr.h>
 
 #include "LinuxPluginHandle.h"
 
@@ -10,7 +9,7 @@ namespace sevenide::plugin
 {
 
 class IPlugin;
-using IPluginPtr = memory::SharedPtr<IPlugin>;
+using IPluginPtr = std::shared_ptr<IPlugin>;
 
 class LinuxPluginHandle //: public IPluginHandle
 {

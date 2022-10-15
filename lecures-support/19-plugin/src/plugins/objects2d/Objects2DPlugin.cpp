@@ -1,6 +1,6 @@
 #include "Objects2DPlugin.h"
 
-sevenide::memory::SharedPtr<sevenide::plugin::IPlugin> getPluginInstance()
+std::shared_ptr<sevenide::plugin::IPlugin> getPluginInstance()
 {
     return std::make_shared<sevenide::objects2d::Objects2DPlugin>();
 }

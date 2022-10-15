@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(FunctionsTask)
+project(FunctionsTask LANGUAGES CXX)
 
 function(CreateLibrary LIB_NAME LIB_TYPE LOG SOURCES)
     if (LOG)
@@ -10,5 +10,5 @@ endfunction()
 
 set(SRC_FILES main.cpp Class.cpp OtherClass.cpp)
 
-# there is bug here, where?
+# there is bug here, but where?
 CreateLibrary(MyLib STATIC FALSE ${SRC_FILES})

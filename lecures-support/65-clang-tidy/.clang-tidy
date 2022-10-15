@@ -1,12 +1,12 @@
 #modernize-pass-by-value,
-Checks: '-cppcoreguidelines-*,
+Checks: 'cppcoreguidelines-*
 '
 
 WarningsAsErrors: '
-cppcoreguidelines-*,
+cppcoreguidelines-*
 '
 
-HeaderFilterRegex: '[A-Z][A-Za-z0-9]*\.h'
+HeaderFilterRegex: '*\.h'
 AnalyzeTemporaryDtors: false
 InheritParentConfig: true
 FormatStyle: file

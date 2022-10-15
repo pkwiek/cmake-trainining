@@ -2,6 +2,7 @@
 
 class ExampleInterface
 {
+    virtual ~ExampleInterface() = default;
     virtual void method() = 0;
 };
 

@@ -1,15 +1,14 @@
 #pragma once
 
+#include <memory>
 #include <string>
-
-#include <SharedPtr.h>
 #include <vector>
 
 namespace sevenide::plugin
 {
 
 class IPlugin;
-using IPluginPtr = memory::SharedPtr<IPlugin>;
+using IPluginPtr = std::shared_ptr<IPlugin>;
 
 class IPluginLoader
 {
@@ -20,4 +19,4 @@ public:
     virtual std::vector<IPluginPtr> LoadPlugins(const std::string& directory) noexcept = 0;
 };
 
-} // namespace
+} // namespace sevenide::plugin

@@ -1,4 +1,4 @@
-set(APP_NAME "ClangTidyApplication")
+set(APP_NAME "Application")
 
 aux_source_directory(. SRC_FILES)
 

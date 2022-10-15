@@ -1,4 +1,5 @@
-option(APP_PERFORM_CODE_INSPECTION "If ON code inspection is performed during build" OFF)
+# For example purposes by default option is ON
+option(APP_PERFORM_CODE_INSPECTION "If ON code inspection is performed during build" ON)
 
 if (NOT APP_PERFORM_CODE_INSPECTION)
     message("Skipping code inspection")

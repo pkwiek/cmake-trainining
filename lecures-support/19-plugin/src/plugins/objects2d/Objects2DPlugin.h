@@ -1,11 +1,11 @@
 #pragma once
 
-#include <IPlugin.h>
-#include <SharedPtr.h>
+#include <memory>
 
-//extern "C" SEVENIDE_OBJECT2D_API sevenide::memory::SharedPtr<sevenide::plugin::IPlugin>
-SEVENIDE_OBJECT2D_API sevenide::memory::SharedPtr<sevenide::plugin::IPlugin>
-getPluginInstance();
+#include <IPlugin.h>
+
+extern "C" SEVENIDE_OBJECT2D_API std::shared_ptr<sevenide::plugin::IPlugin> getPluginInstance();
+// SEVENIDE_OBJECT2D_API std::shared_ptr<sevenide::plugin::IPlugin> getPluginInstance();
 
 namespace sevenide::objects2d
 {
