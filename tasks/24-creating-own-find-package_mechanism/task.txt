@@ -11,5 +11,9 @@ You can use
 * INTERFACE_INCLUDE_DIRECTORIES - property for include directories
 
 Reference:
-https://cmake.org/cmake/help/v3.20/variable/CMAKE_PREFIX_PATH.html
-https://cmake.org/cmake/help/v3.20/command/find_package.html
+https://cmake.org/cmake/help/latest/variable/CMAKE_PREFIX_PATH.html
+https://cmake.org/cmake/help/latest/command/find_package.html
+
+https://cmake.org/cmake/help/latest/command/find_library.html
+https://cmake.org/cmake/help/latest/command/find_path.html
+

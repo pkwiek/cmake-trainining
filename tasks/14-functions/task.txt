@@ -1,1 +1,4 @@
 Find the bug and fix it.
+
+Helpers:
+https://cmake.org/cmake/help/latest/command/function.html

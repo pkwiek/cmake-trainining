@@ -1,6 +1,6 @@
 1. Create custom target that will run all test registered at CTest in just project (tasks/05-project-structure)
 2. Find the way how to exclude external library tests
 
-Reference:
-https://cmake.org/cmake/help/v3.20/command/enable_testing.html?highlight=enable_testing
-https://cmake.org/cmake/help/v3.20/command/add_test.html
+Helpers:
+https://cmake.org/cmake/help/latest/command/enable_testing.html?highlight=enable_testing
+https://cmake.org/cmake/help/latest/command/add_test.html

@@ -1,0 +1,12 @@
+Refactor CMake project on subprojects:
+* create separate project for application
+* create static libraries
+* fix includes from "" to <> if needed
+* bonus: create one subproject providing header only library
+
+Helpers:
+
+https://cmake.org/cmake/help/latest/command/add_executable.html
+https://cmake.org/cmake/help/latest/command/add_subdirectory.html
+https://cmake.org/cmake/help/latest/command/add_library.html
+https://cmake.org/cmake/help/latest/command/target_include_directories.html

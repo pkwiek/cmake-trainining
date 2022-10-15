@@ -1,0 +1,2 @@
+add_subdirectory(objects2d)
+add_subdirectory(opengl-graphics)

@@ -8,4 +8,4 @@ You can use
 * install(FILES ...)
 * PUBLIC_HEADERS property
 
-https://cmake.org/cmake/help/v3.20/command/install.html
+https://cmake.org/cmake/help/latest/command/install.html

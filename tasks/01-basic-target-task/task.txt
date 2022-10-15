@@ -1,0 +1,5 @@
+Add CMakeLists.txt that will use C++ files in directory and creates executable
+
+Helpers:
+
+https://cmake.org/cmake/help/latest/command/add_executable.html

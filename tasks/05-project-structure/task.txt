@@ -1,5 +1,0 @@
-Refactor CMake project on submodules:
-* create separate project for application
-* create static libraries
-* fix includes from "" to <> if needed
-* bonus: create one submodule providing header only library
