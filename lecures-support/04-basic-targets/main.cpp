@@ -1,6 +1,11 @@
 #include <iostream>
 
+#include "ExampleClass.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    const auto object = ExampleClass();
+
+    std::cout << "Hello " << object.getName() << "!" << std::endl;
     return 0;
 }
