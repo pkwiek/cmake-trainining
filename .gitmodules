@@ -1,0 +1,36 @@
+[submodule "lecures-support/05-project-structure/external/googletest"]
+	path = lecures-support/05-project-structure/external/googletest
+	url = https://github.com/google/googletest.git
+[submodule "lecures-support/05-project-structure/external/json"]
+	path = lecures-support/05-project-structure/external/json
+	url = https://github.com/nlohmann/json.git
+[submodule "lecures-support/08-definitions/external/json"]
+	path = lecures-support/08-definitions/external/json
+	url = https://github.com/nlohmann/json.git
+[submodule "lecures-support/08-definitions/external/googletest"]
+	path = lecures-support/08-definitions/external/googletest
+	url = https://github.com/google/googletest.git
+[submodule "lecures-support/18-setting-compiler-flags/external/googletest"]
+	path = lecures-support/18-setting-compiler-flags/external/googletest
+	url = https://github.com/google/googletest.git
+[submodule "lecures-support/18-setting-compiler-flags/external/json"]
+	path = lecures-support/18-setting-compiler-flags/external/json
+	url = https://github.com/nlohmann/json.git
+[submodule "lecures-support/21-configuring-files/external/googletest"]
+	path = lecures-support/21-configuring-files/external/googletest
+	url = https://github.com/google/googletest.git
+[submodule "lecures-support/21-configuring-files/external/json"]
+	path = lecures-support/21-configuring-files/external/json
+	url = https://github.com/nlohmann/json.git
+[submodule "lecures-support/22-installing/external/json"]
+	path = lecures-support/22-installing/external/json
+	url = https://github.com/nlohmann/json.git
+[submodule "lecures-support/22-installing/external/googletest"]
+	path = lecures-support/22-installing/external/googletest
+	url = https://github.com/google/googletest.git
+[submodule "lecures-support/64-testing/external/googletest"]
+	path = lecures-support/64-testing/external/googletest
+	url = https://github.com/google/googletest.git
+[submodule "lecures-support/64-testing/external/json"]
+	path = lecures-support/64-testing/external/json
+	url = https://github.com/nlohmann/json.git

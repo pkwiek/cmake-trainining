@@ -1,12 +1,6 @@
-#include <QApplication>
-#include <QLabel>
+#include <iostream>
 
 int main(int argc, char **argv)
 {
-  QApplication app(argc, argv);
-
-  auto label = QLabel("I am Qt application");
-  label.show();
-
-  return app.exec();
+  std::cout << "Hello World!" << std::endl;
 }

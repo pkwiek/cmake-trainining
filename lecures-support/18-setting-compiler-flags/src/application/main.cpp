@@ -15,7 +15,7 @@ void printHelloToOperatingSystem()
 
 Server* connectToHost()
 {
-    std::cout << "Connecting to server..." << std::endl;
+
     return new Server;
 }
 
@@ -41,6 +41,7 @@ int main(int argc, char** argv)
 #ifdef APP_ONLINE
     // ups, we have memory leak, let's run sanitizer
     const auto server = connectToHost();
+//    std::cout << "Connecting to server " << server->host << "..." <<  std::endl;
 #endif
     return 0;
 }
