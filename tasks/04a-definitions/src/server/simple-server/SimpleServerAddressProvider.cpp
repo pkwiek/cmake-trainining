@@ -2,5 +2,5 @@
 
 std::string SimpleServerAddressProvider::getHostAddress()
 {
-    return "https://production.server.com";
+    return MY_ADDRESS;
 }
